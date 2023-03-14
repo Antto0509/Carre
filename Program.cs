@@ -1,8 +1,11 @@
-﻿int CalculeCarre(int i)
+﻿int CalculeCarre(int val)
 {
-    return i*i;
+    return val * val;
 }
 
-Console.WriteLine(CalculeCarre(4));
-Console.WriteLine(CalculeCarre(-3));
-Console.WriteLine(CalculeCarre(12));
+int i;
+
+Console.WriteLine("Saisir un entier");
+i = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine(CalculeCarre(i));
