@@ -1,4 +1,9 @@
-﻿int CalculeCarre(int val)
+﻿//Sous-programme CalculeCarre : calcule le carre de l'entier
+// passe en parametre
+// Parametre :
+// - val : entier dont on souhaite le carre (en entree)
+// Valeur de retour : le carre de val
+int CalculeCarre(int val)
 {
     return val * val;
 }
